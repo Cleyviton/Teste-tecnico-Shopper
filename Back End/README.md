@@ -6,9 +6,9 @@
 
 <p>Antes de tudo:</p>
 
--   instalar MySQL 8
--   criar um Banco de Dados no MySQL
--   executar as queries do sql/database.sql no terminal ou em um programa de sua preferência
+-   instale MySQL 8
+-   crie um Banco de Dados no MySQL
+-   execute as queries do sql/database.sql no terminal ou em algum outro programa
 
 <h3> Preparação do ambiente <h3>
 
