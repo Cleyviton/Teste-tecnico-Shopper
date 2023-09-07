@@ -39,3 +39,4 @@ utilizando yarn: yarn dev
 <h3> Atenção: <h3>
 
 <p>Deixe o projeto backend em execução e abra uma nova janela da sua IDE na raiz do projeto frontend e vamos lá para fazer o teste das features.</p>
+<p>link: https://github.com/Cleyviton/Teste-tecnico-Shopper/tree/main/Front%20End.</p>
