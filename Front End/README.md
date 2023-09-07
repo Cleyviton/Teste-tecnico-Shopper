@@ -1,10 +1,12 @@
-<h1> My Agenda </h1>
+<h1> Frontend Shopper </h1>
 
-<h2> Como iniciar o Front-End </h2>
+<h2> Como iniciar o Frontend </h2>
+
+**Passos para rodar a aplicação:**
 
 <p>Antes de tudo, clone o repositório em sua máquina</p>
 
-<p> Em seguida, dentro da pasta raiz do projeto, instale o pacote de <strong>dependências</strong> rodando o seguinte comando no seu terminal:</p>
+<p>Em seguida, abra o terminal na pasta raiz do frontend e instale os pacotes de <strong>dependências</strong> rodando o seguinte comando no seu terminal:</p>
 
 ```shell
 utilizando npm: npm install
@@ -20,8 +22,10 @@ utilizando yarn: yarn dev
 
 <h3>É só isso? Sim! Parabéns!! :)<h3>
 
-<p>O seu projeto My Agenda está rodando no seguinte localhost:</p>
+<p>O seu projeto Frontend Shopper está rodando no seguinte localhost:</p>
 
 ```shell
 Local: http://localhost:5173/
 ```
+
+<p> Abra o no seu navegador preferido para testar as funcionalidades </p>
