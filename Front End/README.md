@@ -28,4 +28,4 @@ utilizando yarn: yarn dev
 Local: http://localhost:5173/
 ```
 
-<p> Abra o no seu navegador preferido para testar as funcionalidades </p>
+<p> Abra o no seu navegador preferido para testar as funcionalidades!! </p>
