@@ -6,9 +6,9 @@
 
 <p>Antes de tudo:</p>
 
--   instalar MySQL 8
--   criar um Banco de Dados no MySQL
--   executar as queries do sql/database.sql no terminal ou em um programa de sua preferência
+-   instale MySQL 8
+-   crie um Banco de Dados no MySQL
+-   execute as queries do sql/database.sql no terminal ou em algum outro programa
 
 <h3> Preparação do ambiente <h3>
 
@@ -21,7 +21,7 @@ utilizando npm: npm install
 utilizando yarn: yarn
 ```
 
-<p>Para criar a conexão com o seu banco de dados, crie um arquivo .env na raiz do projeto como no exempo do arquivo .env.exemple e preencha com os seus dados:</p>
+<p>Para criar a conexão com o seu banco de dados, crie um arquivo .env na raiz do projeto como no exempo do arquivo .env.example e preencha com os seus dados:</p>
 
 ```shell
 DATABASE_URL="mysql2://user:password@localhost:port/database"
