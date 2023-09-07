@@ -21,7 +21,7 @@ utilizando npm: npm install
 utilizando yarn: yarn
 ```
 
-<p>Para criar a conexão com o seu banco de dados, crie um arquivo .env na raiz do projeto como no exempo do arquivo .env.exemple e preencha com os seus dados:</p>
+<p>Para criar a conexão com o seu banco de dados, crie um arquivo .env na raiz do projeto como no exempo do arquivo .env.example e preencha com os seus dados:</p>
 
 ```shell
 DATABASE_URL="mysql2://user:password@localhost:port/database"
