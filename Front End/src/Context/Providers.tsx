@@ -1,8 +1,8 @@
 import { IProvidersProps } from "./@Types";
-import { ProductProvider } from "./ProductContext";
+import { UserProvider } from "./UserContext";
 
 const Providers = ({ children }: IProvidersProps) => {
-    return <ProductProvider>{children}</ProductProvider>;
+    return <UserProvider>{children}</UserProvider>;
 };
 
 export default Providers;

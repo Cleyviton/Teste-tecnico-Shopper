@@ -34,53 +34,6 @@ const StyledHeader = styled.header`
                 background-color: var(--color-tertiary);
             }
         }
-
-        .button-register {
-            background-color: var(--color-secondary);
-            border-color: var(--color-secondary);
-        }
-    }
-
-    .container-hamburger {
-        display: none;
-    }
-
-    .hamburger {
-        font-size: 32px;
-        color: white;
-        cursor: pointer;
-        transition: 0.3s;
-
-        &:hover {
-            color: var(--color-tertiary);
-        }
-    }
-
-    @media (max-width: 769px) {
-        padding: 20px 30px;
-
-        img {
-            width: 145px;
-        }
-
-        .hidden {
-            display: none;
-        }
-
-        .buttons-container {
-            flex-direction: column;
-            gap: 5px;
-
-            button {
-                width: 120px;
-                padding: 5px 0;
-            }
-        }
-
-        .container-hamburger {
-            display: flex;
-            justify-content: end;
-        }
     }
 `;
 

@@ -1,11 +1,11 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 
 import { ProductContext } from "../../Context/ProductContext";
 import { Card } from "./Card";
 import { StyledProductList } from "./styles";
 import { IProduct } from "../../Context/@Types";
 import { Modal } from "../Modal";
-import { Form } from "../Form";
+import { UploadForm } from "../Form/UploadForm";
 
 export const ProductList = () => {
     const { products, toggleModal, isOpenModal } = useContext(ProductContext);
@@ -20,7 +20,7 @@ export const ProductList = () => {
             ))}
             {isOpenModal && (
                 <Modal toggleModal={toggleModal}>
-                    <Form />
+                    <UploadForm />
                 </Modal>
             )}
         </StyledProductList>

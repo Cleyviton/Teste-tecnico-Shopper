@@ -3,9 +3,9 @@ import { GoFileDirectoryFill } from "react-icons/go";
 import { toast } from "react-toastify";
 
 import { StyledForm } from "./styles";
-import { ProductContext } from "../../Context/ProductContext";
+import { ProductContext } from "../../../Context/ProductContext";
 
-export const Form = () => {
+export const UploadForm = () => {
     const {
         fileIsValided,
         setFileIsValided,

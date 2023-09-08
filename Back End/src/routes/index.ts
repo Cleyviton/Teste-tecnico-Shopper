@@ -1,5 +1,6 @@
+import { user } from "./user.routes";
 import { products } from "./products.routes";
 
-const routes = { products };
+const routes = { user, products };
 
 export default routes;

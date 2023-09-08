@@ -4,15 +4,23 @@ import { toast } from "react-toastify";
 import { IProduct, IProductContext } from "./@Types";
 import { IProvidersProps } from "./@Types";
 import { Api } from "../services/api";
+import { useNavigate } from "react-router-dom";
 
 export const ProductContext = createContext({} as IProductContext);
 
 export const ProductProvider = ({ children }: IProvidersProps) => {
     const [products, setProducts] = useState<IProduct[] | []>([]);
     const [fileIsValided, setFileIsValided] = useState<boolean>(false);
+    const navigate = useNavigate();
 
     useEffect(() => {
         (async () => {
+            const token = localStorage.getItem("@Shopper:TOKEN");
+
+            if (!token) {
+                navigate("/");
+            }
+
             const response = await Api.get("/products/");
             setProducts(response.data);
         })();
