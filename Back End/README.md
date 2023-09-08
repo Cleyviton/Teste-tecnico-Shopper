@@ -25,6 +25,7 @@ utilizando yarn: yarn
 
 ```shell
 DATABASE_URL="mysql2://user:password@localhost:port/database"
+SECRET_KEY=
 ```
 
 <h3> Parabéns!! O seu projeto backend Shopper está pronto para rodar :) <h3>
